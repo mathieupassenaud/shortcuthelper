@@ -1,0 +1,11 @@
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\InteractiveKeyboard.exe.config
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\InteractiveKeyboard.exe
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\InteractiveKeyboard.pdb
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\websocket-sharp.dll
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\obj\Debug\InteractiveKeyboard.csprojResolveAssemblyReference.cache
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\obj\Debug\InteractiveKeyboard.exe
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\obj\Debug\InteractiveKeyboard.pdb
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\WindowsInput.dll
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\WindowsInput.xml
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\Newtonsoft.Json.xml
