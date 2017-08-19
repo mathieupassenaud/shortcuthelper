@@ -1,0 +1,56 @@
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element0" onClick="paste($('#element0').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element1" onClick="paste($('#element1').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element2" onClick="paste($('#element2').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element3" onClick="paste($('#element3').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element4" onClick="paste($('#element4').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element5" onClick="paste($('#element5').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element6" onClick="paste($('#element6').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element7" onClick="paste($('#element7').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element8" onClick="paste($('#element8').val())" />
+</div>
+<div class="row">
+	<input class="btn-lg btn-link" type='button' id="element9" onClick="paste($('#element9').val())" />
+</div>
+
+<div class="row">
+	<img src="plugins/clipboard/img/logo.jpg"/>
+</div>
+
+<script langage="javascript">
+
+function getAll(){
+	$.get( "/api/clipboard/", function( data ) {
+		
+		data.forEach(function (value, index){
+			$("#element"+index).val(value.substring(0,26));
+		});
+		
+		  
+		});
+	
+}	
+function paste(value){
+	$.post( "/api/input", value );
+}
+
+//setInterval(getAll, 500)
+
+
+</script>
