@@ -133,7 +133,7 @@ namespace InteractiveKeyboard
         private void Listen()
         {
             _listener = new HttpListener();
-            _listener.Prefixes.Add("http://127.0.0.1:" + _port.ToString() + "/");
+            _listener.Prefixes.Add("http://192.168.1.43:" + _port.ToString() + "/");
             _listener.Start();
             while (true)
             {

@@ -1,13 +1,14 @@
 
 
-var processSocket = new WebSocket("ws:127.0.0.1/process");
+var processSocket = new WebSocket("ws:192.168.1.43:8889/process");
 processSocket.onmessage = function (evt)
 {
-	var receivedMessage = evt.data;
-	loadPlugin(receivedMessage.split(".")[0]);
+	var receivedMessage = JSON.parse(evt.data);
+	loadPlugin(receivedMessage.name.split(".")[0]);
 }
 
-var inputSocket = new WebSocket("ws:127.0.0.1/input");
+var inputSocket = new WebSocket("ws:192.168.1.43:8889/input");
+
 
 
 function loadPlugin(pluginName){

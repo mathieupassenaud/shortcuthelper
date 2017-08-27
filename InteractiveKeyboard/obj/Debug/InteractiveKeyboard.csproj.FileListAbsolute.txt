@@ -9,3 +9,5 @@ C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\Interac
 C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\WindowsInput.xml
 C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\obj\Debug\InteractiveKeyboard.QRView.resources
+C:\Users\Mathieu\Documents\dev\interactive-keyboard2\InteractiveKeyboard\InteractiveKeyboard\obj\Debug\InteractiveKeyboard.csproj.GenerateResource.Cache

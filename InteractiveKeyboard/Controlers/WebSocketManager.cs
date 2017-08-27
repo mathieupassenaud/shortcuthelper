@@ -15,7 +15,7 @@ namespace InteractiveKeyboard.Controlers
         WebSocketServer ws;
         public WebSocketManager(ProcessManager processManager, InputKeysStrokes inputKeysStrokes)
         {
-            ws = new WebSocketServer("ws://127.0.0.1");
+            ws = new WebSocketServer("ws://192.168.1.43:8889");
             ws.AddWebSocketService<ProcessManager>("/process", () => processManager);
             ws.AddWebSocketService<InputKeysStrokes>("/input", () => inputKeysStrokes);
             ws.Start();
