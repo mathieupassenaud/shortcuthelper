@@ -1,3 +1,10 @@
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+ crossorigin="anonymous"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+ crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+ crossorigin="anonymous"></script>
+
 <style>
 	.btn-lg {
 		    padding-left: 25px;
@@ -6,27 +13,29 @@
 	}
 </style>
 
-<script src="plugins/chrome/chrome.js"></script>
-
-<div class="row" style="margin-top: 50px">
-	<div class="col-xs-10 col-xs-offset-2">
-		<button type="button" class="btn-lg" onclick="document.documentElement.webkitRequestFullscreen();"><span class="glyphicon glyphicon-circle-arrow-left"></span></button>
-		<button type="button" class="btn-lg"><span class="glyphicon glyphicon-refresh"></span></button>
-		<button type="button" class="btn-lg btn-primary"><span class="glyphicon glyphicon-repeat"></span></button>
-		<button type="button" class="btn-lg"><span class="glyphicon glyphicon-circle-arrow-right"></span></button>
+<div class="container">
+	<div class="row justify-content-start" style="margin-top: 50px">
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("alt+left");'><span class="glyphicon glyphicon-circle-arrow-left"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+r");'><span class="glyphicon glyphicon-refresh"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg btn-primary" onclick='sendCodes("ctrl+shift+r");'><span class="glyphicon glyphicon-repeat"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("alt+right");'><span class="glyphicon glyphicon-circle-arrow-right"></span></button></div>
 	</div>
-	<div class="col-xs-10 col-xs-offset-2" style="margin-top: 20px">
-		<button type="button" class="btn-lg"><span class="glyphicon glyphicon-tags"></span></button>
-		<button type="button" class="btn-lg"><span class="glyphicon glyphicon-search"></span></button>
-		<button type="button" class="btn-lg"><span class="glyphicon glyphicon-fullscreen"></span></button>
-		<button type="button" class="btn-lg"><span class="glyphicon">+</span></button>
+	<div class="row" style="margin-top: 50px">
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+d");'><span class="glyphicon glyphicon-tags"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+f");'><span class="glyphicon glyphicon-search"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("f11");'><span class="glyphicon glyphicon-fullscreen"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+t");'><span class="glyphicon">+</span></button></div>
 	</div>
-
+	<div class="row" style="margin-top: 50px">
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+h");'><span class="glyphicon glyphicon-th-list"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("f12");'><span class="glyphicon glyphicon-cog"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("alt+home");'><span class="glyphicon glyphicon-home"></span></button></div>
+		<div class="col-xs-3 text-center"><button type="button" class="btn-lg" onclick='sendCodes("ctrl+shift+b");'><span class="glyphicon glyphicon-bookmark"></span></button></div>
+	</div>
 </div>
 
 <div class="row footer navbar-fixed-bottom">
-	<div class="col-xs-6">
-		<img src="plugins/chrome/img/logo.jpg"/>
+	<div class="col-6">
+		<img src="plugins/chrome/img/logo.jpg" onclick="document.documentElement.webkitRequestFullscreen();" />
 	</div>
 </div>
-
