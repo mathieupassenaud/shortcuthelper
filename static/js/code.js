@@ -6,8 +6,8 @@ if (loc.protocol === "https:") {
 } else {
     new_uri = "ws:";
 }
-new_uri += "//" + loc.host;
-new_uri += loc.pathname + "/process";
+new_uri += "//" + loc.host.split(":")[0];
+new_uri += ":5678/process";
 
 var processSocket = new WebSocket(new_uri);
 processSocket.onmessage = function (evt)
